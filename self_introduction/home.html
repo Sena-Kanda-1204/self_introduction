@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>self-introduction_神田 聖奈</title>
+        <link rel="icon" href="images/thumbnail_logo-2.png" id="favicon">
+        <link rel="stylesheet" href="base.css">
+        <link rel="stylesheet" href="home.css">
+    </head>
+
+    <body>
+        <!-- ヘッダー -->
+            <header>
+                <h1><a href="home.html" id="logo"><img src="images/logo-name.png" alt="ロゴ"></a></h1>
+
+                <nav id="global_navi" class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_anime nav_item"><a href="home.html">Home</a></li>
+                        <li class="nav_anime nav_item"><a href="skill.html">Skill</a></li>
+                        <li class="nav_anime nav_item"><a href="favorite.html">Favorite</a></li>
+                        <li class="nav_anime nav_item"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <div class="hamburger" id="js-hamburger">
+                <span class="hamburger_border hamburger_border_top"></span>
+                <span class="hamburger_border hamburger_border_center"></span>
+                <span class="hamburger_border hamburger_border_bottom"></span>
+            </div>
+
+            <div class="black_bg" id="js-black-bg"></div>
+            
+        <!-- ヘッダー -->
+         
+        <!-- スクリプト -->
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const hamburger = document.getElementById('js-hamburger');
+                    const blackBg = document.getElementById('js-black-bg');
+                    const body = document.body;
+
+                    hamburger.addEventListener('click', function () {
+                        body.classList.toggle('nav-open');
+                    });
+
+                    blackBg.addEventListener('click', function () {
+                        body.classList.remove('nav-open');
+                    });
+                });
+            </script>
+        <!-- スクリプト -->
+
+        <!-- メイン -->
+            <div class="box">
+                <span class="box-title">Outline</span>
+                
+                <div id="pagebody">
+
+                    <div id="name_pic">
+                        <ruby>
+                            神田 <rp>(</rp><rt>かんだ</rt><rp>)</rp> 聖奈 <rp>(</rp><rt>せな</rt><rp>)</rp>
+                        </ruby>
+
+                        <figure class="pic"><img src="images/thumbnail_0016631347052458-web.jpg"></figure>
+
+                        <div id="icon"> 
+                            <a href="https://www.instagram.com/?locale=ja_JP" class="icon"><img src="images/カメラのアイコン素材 6.png"></a>
+                            <a href="https://www.facebook.com/?locale=ja_JP" class="icon"><img src="images/FACEBOOK風のアイコン素材 その3.png"></a>
+                            <a href="https://x.com/" class="icon"><img src="images/twitterのアイコン素材 その2.png"></a>
+                        </div>
+                    </div>
+
+                    <div id="prf">
+                        <h2>プロフィール</h2>
+                        <p>　現在、IT分野の専門学校に在学し、Web制作やプログラミングを中心に学んでいます。HTML/CSSやJavaScriptの基礎を活かし、ユーザーの使いやすさを意識したサイト制作に取り組んでいます。
+                            趣味は漫画やアニメ鑑賞で、そこから得た発想力も活かしながら、責任感を持って課題に取り組んでいます。将来は、技術力とコミュニケーション力を兼ね備え、人に価値を提供できるエンジニアを目指しています。</p>
+                    </div>
+
+                    <div id="pow">
+                        <h2>学生時代に力を入れたこと</h2>
+                        <p>　演劇部での活動と接客アルバイトの経験。中学・高校では演劇部に所属し、高校では部長として約12名の部員をまとめ、公演に向けた練習計画の作成や進行管理、普段のタスクのマニュアル化を行いました。
+                            また、書店でのアルバイトでは、お客様の要望を的確に汲み取る接客を意識し、相手の立場に立って行動する力を身につけました。これらの経験から、責任を持って周囲と協力しながら物事を進める力を培いました。</p>
+                    </div>
+
+                </div>
+                
+                <ul class="profile-list">
+                    <li><span class="label">生年月日</span><span class="value">2004/12/4</span></li>
+                    <li><span class="label">血液型</span><span class="value">O型</span></li>
+                    <li><span class="label">出身地</span><span class="value">神奈川県</span></li>
+                    <li><span class="label">資格、免許</span><span class="value"> 2025年8月31日　基本情報技術者試験合格<br>2026年1月6日　普通自動車免許取得</span></li>
+                    <li><span class="label">学歴、バイト</span><span class="value">2023年3月　東京純心女子高等学校　卒業<br>2023年4月　東京国際工科専門職大学　入学<br>2023年5月　自宅近くの本屋でアルバイト開始<br>2025年3月　東京国際工科専門職大学　退学<br>2025年4月　立川情報ITクリエイター専門学校　入学<br><br>2028年3月　同校卒業予定</span></li>
+                    <li><span class="label">座右の銘</span><span class="value">世の人の厭える業を、我が物と負いてし行かん</span></li>
+                </ul>
+                
+            </div>
+        <!-- メイン -->
+
+        <!-- フッター -->
+         <footer>
+                <nav id="bottom_navi">
+                    <ul>
+                        <div class="bottom_navi_element">
+                            <li class="bottom_navi_element"><a href="home.html">Home</a></li>
+                                <p>　名前<br>　顔写真<br>　簡易プロフィール<br>　学生時代に力を入れたこと<br>　生年月日<br>　出身地<br>　資格、免許<br>　学歴、バイト<br>　座右の銘</p>
+                        </div>
+                        <div class="bottom_navi_element">
+                            <li><a href="skill.html">Skill</a></li>
+                                <p>　HTML/CSS<br>　JavaScript<br>　Java<br>　Python<br>　Word/PowerPoint/Excel<br>　Photoshop<br>　Illustrator<br>　Blender</p>
+                        </div>
+                        <div class="bottom_navi_element">
+                            <li><a href="favorite.html">Favorite</a></li>
+                                <p>　趣味、推し作品</p>
+                        </div>
+                        <div class="bottom_navi_element">
+                            <li><a href="contact.html">Contact</a></li>
+                                <p>　お問い合わせ</p>
+                        </div>
+                    </ul>
+                </nav>
+
+                <div id="copyright"><small>&copy; 2025 KandaSena</small></div>
+         </footer>
+        <!-- フッター -->
+    </body>
+</html>
