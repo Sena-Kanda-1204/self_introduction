@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Skill | self-introduction_神田 聖奈</title>
+        <link rel="icon" href="/assets/images/thumbnail_logo-2.png" id="favicon">
+
+        <link rel="stylesheet" href="/assets/css/base.css">
+
+        
+        <link rel="stylesheet" href="/assets/css/skill.css">
+        
+    </head>
+
+    <body>
+        <!-- ヘッダー -->
+            <header>
+                <h1><a href="home.html" id="logo"><img src="/assets/images/logo-name.png"></a></h1>
+
+                <nav id="global_navi" class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_anime nav_item"><a href="/">Home</a></li>
+                        <li class="nav_anime nav_item"><a href="/skill/">Skill</a></li>
+                        <li class="nav_anime nav_item"><a href="/favorite/">Favorite</a></li>
+                        <li class="nav_anime nav_item"><a href="/contact/">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <div class="hamburger" id="js-hamburger">
+                <span class="hamburger_border hamburger_border_top"></span>
+                <span class="hamburger_border hamburger_border_center"></span>
+                <span class="hamburger_border hamburger_border_bottom"></span>
+            </div>
+
+            <div class="black_bg" id="js-black-bg"></div>
+            
+        <!-- ヘッダー -->
+         
+        <!-- スクリプト -->
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const hamburger = document.getElementById('js-hamburger');
+                    const blackBg = document.getElementById('js-black-bg');
+                    const body = document.body;
+
+                    hamburger.addEventListener('click', function () {
+                        body.classList.toggle('nav-open');
+                    });
+
+                    blackBg.addEventListener('click', function () {
+                        body.classList.remove('nav-open');
+                    });
+                });
+            </script>
+        <!-- スクリプト -->
+
+        <!-- メイン -->
+        <main>
+            
+<!-- メイン -->
+<div class="box">
+    <span class="box-title">My Skill</span>
+
+    <div class="skill-list">
+
+        <div class="skill-item">
+            <h3>HTML / CSS</h3>
+        </div>
+
+        <div class="skill-item">
+            <h3>JavaScript</h3>
+            <a href="../LifeLog/index.html">LifeLog（制作中）</a>
+        </div>
+
+        <div class="skill-item">
+            <h3>Java</h3>
+        </div>
+
+        <div class="skill-item">
+            <h3>Python</h3>
+
+            <img src="../assets/images/スクリーンショット 2023-10-10 142131.png"
+                 class="skill-pic"
+                 alt="Python作品">
+
+            <video controls>
+                <source src="../assets/videos/python.mp4" type="video/mp4">
+                お使いのブラウザは動画タグに対応していません。
+            </video>
+
+            <video controls>
+                <source src="../assets/videos/python2.mp4" type="video/mp4">
+                お使いのブラウザは動画タグに対応していません。
+            </video>
+        </div>
+
+        <div class="skill-item">
+            <h3>Blender / C#</h3>
+
+            <img src="../assets/images/Blen_1.png"
+                 class="skill-pic"
+                 alt="Blender作品">
+
+            <video controls>
+                <source src="../assets/videos/レコーディング 2024-04-26 113017.mp4" type="video/mp4">
+                お使いのブラウザは動画タグに対応していません。
+            </video>
+        </div>
+
+        <div class="skill-item">
+            <h3>Word / Excel / PowerPoint</h3>
+        </div>
+
+        <div class="skill-item">
+            <h3>Photoshop</h3>
+
+            <img src="../assets/images/Photo_1.png"
+                 class="skill-pic"
+                 alt="Photoshop作品">
+        </div>
+
+        <div class="skill-item">
+            <h3>Illustrator</h3>
+
+            <div class="skill-Ill">
+                <img src="../assets/images/Illu_1.png"
+                     class="skill-Illust"
+                     alt="Illustrator作品1">
+
+                <img src="../assets/images/Illu_2.png"
+                     class="skill-Illust"
+                     alt="Illustrator作品2">
+            </div>
+
+            <div class="skill-Ill">
+                <img src="../assets/images/TK230078_神田聖奈-1.png"
+                     class="skill-Illust"
+                     alt="Illustrator作品3">
+
+                <img src="../assets/images/TK230078_神田聖奈-2.png"
+                     class="skill-Illust"
+                     alt="Illustrator作品4">
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- メイン -->
+        </main>
+        <!-- メイン -->
+
+        <!-- フッター -->
+         <footer>
+                <nav id="bottom_navi">
+                    <ul>
+                        <div class="bottom_navi_element">
+                            <li class="bottom_navi_element"><a href="/">Home</a></li>
+                                <p>　名前<br>　顔写真<br>　簡易プロフィール<br>　学生時代に力を入れたこと<br>　生年月日<br>　出身地<br>　資格、免許<br>　学歴、バイト<br>　座右の銘</p>
+                        </div>
+                        <div class="bottom_navi_element">
+                            <li><a href="/skill/">Skill</a></li>
+                                <p>　HTML/CSS<br>　JavaScript<br>　Java<br>　Python<br>　Word/PowerPoint/Excel<br>　Photoshop<br>　Illustrator<br>　Blender</p>
+                        </div>
+                        <div class="bottom_navi_element">
+                            <li><a href="/favorite/">Favorite</a></li>
+                                <p>　趣味、推し作品</p>
+                        </div>
+                        <div class="bottom_navi_element">
+                            <li><a href="/contact/">Contact</a></li>
+                                <p>　お問い合わせ</p>
+                        </div>
+                    </ul>
+                </nav>
+
+                <div id="copyright"><small>&copy; 2025 KandaSena</small></div>
+         </footer>
+        <!-- フッター -->
+    </body>
+</html>
