@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.box {
+  width:1000px;
+  position: relative;
+  margin: 30px 130px 30px 130px;
+  padding: 30px;
+  border: double 5px #74aea9;
+  border-radius: 20px;
+}
+.box .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -18px;
+  left: 30px;
+  padding: 0 9px;
+  line-height: 1;
+  font-size: 30px;
+  background: #FFF;
+  color: #74aea9;
+  font-weight: bold;
+}
+
+/*============================================
+スマホメニュー
+============================================*/
+
+@media only screen and (max-width: 768px) {
+  .box {
+    width: auto;
+    margin: 30px 20px;
+  }
+}
