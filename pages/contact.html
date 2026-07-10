@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Contact</title>
+        <link rel="icon" href="images/thumbnail_logo-2.png" id="favicon">
+        <link rel="stylesheet" href="../assets/css/base.css">
+        <link rel="stylesheet" href="../assets/css/contact.css">
+    </head>
+
+    <body>
+        <!-- ヘッダー -->
+        <div id="header"></div>
+
+
+        <!-- メイン -->
+            <div class="box">
+                <span class="box-title">Feel free to contact me</span>
+                <p id="info">以下のフォーム、またはメールアドレス（tck2563871@stu.o-hara.ac.jp）までお問い合わせください。</p>
+
+                <form
+                    class="Form"
+                    action="https://formspree.io/f/xdarqaay"
+                    method="POST">
+
+                    <!-- スパム対策（ハニーポット） -->
+                    <input
+                        type="text"
+                        name="_gotcha"
+                        style="display:none">
+
+                    <!-- 送信後の遷移先 -->
+                    <input
+                        type="hidden"
+                        name="_next"
+                        value="https://Sena-Kanda-1204.github.io/self_introduction/pages/thanks.html">
+
+                    <div class="Form-Item">
+                        <p class="Form-Item-Label">
+                            <span class="Form-Item-Label-Required">必須</span>所属名
+                        </p>
+
+                        <input
+                            type="text"
+                            name="company"
+                            class="Form-Item-Input"
+                            placeholder="例）株式会社令和"
+                            required>
+                    </div>
+
+                    <div class="Form-Item">
+                        <p class="Form-Item-Label">
+                            <span class="Form-Item-Label-Required">必須</span>氏名
+                        </p>
+
+                        <input
+                            type="text"
+                            name="name"
+                            class="Form-Item-Input"
+                            placeholder="例）山田太郎"
+                            required>
+                    </div>
+
+                    <div class="Form-Item">
+                        <p class="Form-Item-Label">
+                            <span class="Form-Item-Label-Required">必須</span>メールアドレス
+                        </p>
+
+                        <input
+                            type="email"
+                            name="email"
+                            class="Form-Item-Input"
+                            placeholder="例）example@gmail.com"
+                            required>
+                    </div>
+
+                    <div class="Form-Item">
+                        <p class="Form-Item-Label isMsg">
+                            <span class="Form-Item-Label-Required">必須</span>お問い合わせ内容
+                        </p>
+
+                        <textarea
+                            name="message"
+                            class="Form-Item-Textarea"
+                            required></textarea>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="Form-Btn">
+                        送信する
+                    </button>
+
+                </form>
+            </div>
+        <!-- メイン -->
+
+        <!-- Footer -->
+        <div id="footer"></div>
+
+        <!-- JavaScript -->
+        <script src="../assets/js/include.js"></script>
+        <script src="../assets/js/common.js"></script>
+
+    </body>
+</html>
