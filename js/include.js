@@ -35,19 +35,12 @@ function fixPath(id) {
 
 const inPages = location.pathname.includes("/pages/");
 
-Promise.all([
-    loadComponent(
-        "header",
-        (inPages ? "../" : "") + "components/header.html"
-    ),
-    loadComponent(
-        "footer",
-        (inPages ? "../" : "") + "components/footer.html"
-    )
-]).then(() => {
+loadComponent(
+    "header",
+    (inPages ? "../" : "") + "components/header.html"
+);
 
-    if (typeof initContactForm === "function") {
-        initContactForm();
-    }
-
-});
+loadComponent(
+    "footer",
+    (inPages ? "../" : "") + "components/footer.html"
+);
