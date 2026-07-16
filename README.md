@@ -6,9 +6,6 @@ HTML / CSS / JavaScriptを用いて制作し、レスポンシブ対応やコン
 
 ## URL
 
-GitHub Pagesで公開予定
-
-
 https://Sena-Kanda-1204.github.io/self_introduction/
 
 
